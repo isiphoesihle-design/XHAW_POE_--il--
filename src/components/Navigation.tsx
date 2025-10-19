@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, GraduationCap } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import logo from "@/assets/logo.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,8 +24,8 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 font-bold text-lg text-primary hover:text-primary/80 transition-colors">
-            <GraduationCap className="h-7 w-7" />
+          <Link to="/" className="flex items-center gap-3 font-bold text-lg text-primary hover:opacity-80 transition-opacity">
+            <img src={logo} alt="Empowering the Nation Logo" className="h-10 w-10" />
             <span className="hidden sm:inline">Empowering the Nation</span>
             <span className="sm:hidden">ETN</span>
           </Link>

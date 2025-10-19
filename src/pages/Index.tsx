@@ -43,7 +43,7 @@ const Index = () => {
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
                 Providing skills training for domestic workers and gardeners in Johannesburg. 
-                Established in 2022, we've trained hundreds of individuals to enhance their 
+                Established in 2025, we empower individuals to enhance their 
                 careers and create new opportunities.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
