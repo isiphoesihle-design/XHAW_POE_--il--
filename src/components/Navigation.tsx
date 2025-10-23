@@ -14,6 +14,7 @@ const Navigation = () => {
     { name: "Six-Month Courses", path: "/six-month-courses" },
     { name: "Short Courses", path: "/short-courses" },
     { name: "Fee Calculator", path: "/calculator" },
+    { name: "About Us", path: "/about" },
     { name: "Contact", path: "/contact" },
   ];
 
